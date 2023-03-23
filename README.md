@@ -89,3 +89,72 @@ Subir los archivos a un repositorio remoto
 ```
 $ git push origin <nombre-de-la-rama>
 ```
+## RAMAS
+
+Crear una nueva rama
+```
+$ git branch <nombre-de-la-rama>
+```
+
+Crear una rama rama (Segunda opción)
+```
+$ git checkout -b <nombre-de-la-rama> // Creará la nueva rama y cambiará a ella al instante
+```
+
+Visualiza todas las ramas en el repositorio actual
+```
+$ git branch
+$ git branch --list
+```
+
+Cambiar a la rama especificada y actualiza el directorio activo
+```
+$ git checkout <nombre-de-la-rama>
+```
+
+Volver a la rama anterior sin necesidad de escribir el nombre
+```
+$ git switch -
+```
+
+Borrar una Rama
+```
+$ git branch -D <nombre-de-la-rama>
+```
+
+Lista los branches con mas información
+```
+$ git show-branch
+```
+
+Combina el historial de la rama especificada con la rama actual
+```
+$ git merge <nombre-de-la-rama>
+```
+
+## REBASE
+
+Se usa para aplicar ciertos cambios de una rama en otra, Une el branch actual con la main
+```
+$ git rebase
+```
+
+Cuando resolvemos los conflictos --continue continua la secuencia del rebase donde se pauso
+```
+$ git rebase --continue
+```
+
+Omite el conflicto y sigue su camino
+```
+$ git rebase --skip
+```
+
+Devuelve todo al principio del rebase
+```
+$ git rebase --abort
+```
+
+Se usa para aplicar ciertos cambios de una rama en otra
+```
+$ git rebase <nombre-de-la-rama>
+```
