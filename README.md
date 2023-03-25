@@ -158,3 +158,56 @@ Se usa para aplicar ciertos cambios de una rama en otra
 ```
 $ git rebase <nombre-de-la-rama>
 ```
+## REMOTE
+
+Permite ver todos los repositorios remotos asigandos o a los que apunta tu repositorio local
+$ git remote -v
+Crear un repositorio remoto y lo enlaza con tu repositorio local
+$ git remote add <nombre/origin> <url>
+Remover el enlace al repositorio remoto
+$ git remote rm <nombre/origin>
+Permite cambiar la URL del repositorio remoto
+$ git remote set-url origin <url>
+
+## TAG
+
+Crea un nuevo tags
+$ git tag v0.0.1 -m "primera versión"
+Muestra una lista de todos los tags
+$ git tag
+Te permite ver cómo estaba el repositorio en cada estado
+$ git show v0.0.1
+Enviar al repositorio en GitHub
+$ git push --tags
+
+## OTROS COMANDOS
+
+Busca los cambios nuevos y actualiza el repositorio
+$ git pull origin <nombre-de-la-rama>
+Verifica cambios en el repositorio online con el local
+$ git fetch
+Almacena temporalmente el trabajo sin comentar.
+$ git stash
+Para recuperar los últimos cambios desde el stash a tu staging.
+$ git stash pop
+Listar el historial de versiones de la rama actual.
+$ git log
+$ git log --oneline --graph // Con este comando se lo puede ver mucho mejor 
+$ git log --pretty=oneline --graph --decorate --all // Otra forma mas completa
+Deshacer el commit si ya se hizo push
+$ git revert 3a67899
+Para recuperar archivos que borre
+$ git checkout -- . 
+Borrar un archivo
+$ git rm <nombre-del-archivo> 
+Para recuperar archivos que borre después del git rm
+$ git checkout HEAD -- .
+Eliminar un repositorio de Git creado con ‘git init’ en un directorio
+cd carpeta/
+$ rm -rf .git
+Cambia el nombre del archivo y lo prepara para commit
+$ git mv [archivo-original] [archivo-renombrado]
+
+
+
+** Mis redes sociales: [Linkedin](https://www.linkedin.com/in/bidabehere/) **
