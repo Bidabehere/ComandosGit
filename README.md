@@ -265,4 +265,4 @@ $ git mv [archivo-original] [archivo-renombrado]
 ```
 
 
-__Mis redes sociales: [Linkedin](https://www.linkedin.com/in/bidabehere/)__
+__Mis redes sociales: [Linkedin](https://www.linkedin.com/in/bidabehere/) [Twitter](https://twitter.com/JPBidabehere)__
