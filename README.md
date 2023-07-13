@@ -1,4 +1,4 @@
-# Comandos de GIT (2023) 🚀
+# Comandos de GIT (2023) 🚀 
 
 ## Establecemos los valores de configuración
 
