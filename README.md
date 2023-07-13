@@ -1,7 +1,7 @@
 # Comandos de GIT (2023) 🚀 
 
 ## Establecemos los valores de configuración
-
+ 
 Ahora debemos establecer las variables de configuración global, que son muy importantes, especialmente si estás trabajando con otros desarrolladores. La principal ventaja de esto es que es más fácil averiguar quién ha hecho un commit de determinado bloque de código.
 
 git config puede ser usado para establecer una configuración específica de usuario, como el nombre de usuario ,y el email, etc.
