@@ -39,7 +39,7 @@ Iniciar un nuevo repositorio
 
 ```
 $ git init
-```
+``` 
 
 Clonar un repositorio existente, descarga un proyecto y toda su historia de versión
 
