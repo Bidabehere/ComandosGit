@@ -8,7 +8,7 @@ git config puede ser usado para establecer una configuración específica de usu
 #
 ```
 $ git config --global user.name "nombre"
-$ git config --global user.email "correo@correo.com"
+$ git config --global user.email "correo@correo.com" 
 ```
 
 Habilitar la útil colorización del producto de la línea de comando.
